@@ -1,7 +1,6 @@
 {
   "name": "@javayuga/vuepress-theme-hope",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.2",
   "description": "A light vuepress theme",
   "repository": {
     "type": "git",
@@ -179,7 +178,7 @@
     "typescript": "4.5.4"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@javayuga"
+    "registry": "https://npm.pkg.github.com"
   },
   "textlint": {
     "rules": {

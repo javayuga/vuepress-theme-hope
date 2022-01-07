@@ -43,7 +43,6 @@
       />
       <NavLinks class="can-hide" />
       <LanguageDropdown />
-      <RepoLink class="can-hide" />
 
       <slot name="end" />
     </div>
