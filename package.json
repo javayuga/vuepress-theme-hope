@@ -1,6 +1,6 @@
 {
   "name": "@javayuga/vuepress-theme-hope",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A light vuepress theme",
   "repository": {
     "type": "git",
@@ -40,7 +40,6 @@
     "docs/sitemap:serve": "yarn workspace sitemap-docs docs:serve",
     "docs/theme:serve": "yarn workspace theme-docs docs:serve",
     "docs:build": "lerna run docs:build --parallel",
-    "postinstall": "husky install",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:clean": "lerna clean",
     "lerna:release": "ts-node -O {\\\"module\\\":\\\"commonjs\\\"} scripts/release",
@@ -55,6 +54,7 @@
     "packages:bootstrap": "ts-node -O {\\\"module\\\":\\\"commonjs\\\"} scripts/bootstrap.ts",
     "packages:check-update": "ncu --deep --timeout 600000",
     "packages:update": "ncu -u --deep --timeout 600000 && yarn install && yarn upgrade",
+    "prepare": "husky install",
     "test": "jest -i"
   },
   "lint-staged": {
