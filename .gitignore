@@ -23,3 +23,5 @@ packages/theme/**/*d.ts
 
 # Coverage Files
 coverage/
+
+.idea
